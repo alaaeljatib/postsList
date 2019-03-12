@@ -15,6 +15,11 @@
 		61CC4CB5223821CC00A34E83 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC4CB3223821CC00A34E83 /* PostTableViewCell.swift */; };
 		61CC4CB6223821CC00A34E83 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61CC4CB4223821CC00A34E83 /* PostTableViewCell.xib */; };
 		61CC4CB92238253200A34E83 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC4CB82238253200A34E83 /* Constants.swift */; };
+		61CC4CBC2238276900A34E83 /* ItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC4CBB2238276900A34E83 /* ItemService.swift */; };
+		61CC4CBF2238277F00A34E83 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC4CBE2238277F00A34E83 /* Post.swift */; };
+		61CC4CC12238284500A34E83 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC4CC02238284500A34E83 /* Comment.swift */; };
+		61CC4CC3223828AA00A34E83 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC4CC2223828AA00A34E83 /* Profile.swift */; };
+		61CC4CC5223828CA00A34E83 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CC4CC4223828CA00A34E83 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		61CC4CB3223821CC00A34E83 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		61CC4CB4223821CC00A34E83 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		61CC4CB82238253200A34E83 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		61CC4CBB2238276900A34E83 /* ItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemService.swift; sourceTree = "<group>"; };
+		61CC4CBE2238277F00A34E83 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		61CC4CC02238284500A34E83 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		61CC4CC2223828AA00A34E83 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		61CC4CC4223828CA00A34E83 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,8 @@
 		61CC4C9E2238172B00A34E83 /* PostsList */ = {
 			isa = PBXGroup;
 			children = (
+				61CC4CBD2238277000A34E83 /* Models */,
+				61CC4CBA2238274200A34E83 /* Services */,
 				61CC4CB72238252500A34E83 /* Util */,
 				61CC4CB2223821A900A34E83 /* Views */,
 				61CC4CB12238180400A34E83 /* Controllers */,
@@ -95,6 +107,25 @@
 				61CC4CB82238253200A34E83 /* Constants.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		61CC4CBA2238274200A34E83 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				61CC4CBB2238276900A34E83 /* ItemService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		61CC4CBD2238277000A34E83 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61CC4CBE2238277F00A34E83 /* Post.swift */,
+				61CC4CC02238284500A34E83 /* Comment.swift */,
+				61CC4CC2223828AA00A34E83 /* Profile.swift */,
+				61CC4CC4223828CA00A34E83 /* Item.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,8 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CC4CBC2238276900A34E83 /* ItemService.swift in Sources */,
+				61CC4CC5223828CA00A34E83 /* Item.swift in Sources */,
+				61CC4CC3223828AA00A34E83 /* Profile.swift in Sources */,
 				61CC4CA22238172B00A34E83 /* PostsViewController.swift in Sources */,
 				61CC4CA02238172B00A34E83 /* AppDelegate.swift in Sources */,
+				61CC4CC12238284500A34E83 /* Comment.swift in Sources */,
+				61CC4CBF2238277F00A34E83 /* Post.swift in Sources */,
 				61CC4CB5223821CC00A34E83 /* PostTableViewCell.swift in Sources */,
 				61CC4CB92238253200A34E83 /* Constants.swift in Sources */,
 			);

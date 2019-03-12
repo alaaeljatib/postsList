@@ -12,3 +12,6 @@ import Foundation
 
 let postTableViewCellIdentifier = String(describing: PostTableViewCell.self)
 
+// URLs
+
+let postsUrl = "https://my-json-server.typicode.com/typicode/demo/db"
